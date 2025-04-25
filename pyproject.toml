@@ -1,0 +1,11 @@
+[project]
+name = "hfx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "litestar>=2.15.2",
+    "uvicorn>=0.34.2",
+]
